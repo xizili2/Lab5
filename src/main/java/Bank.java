@@ -62,7 +62,7 @@ public class Bank {
      * @return boolean
      */
     public boolean depositMoney(final BankAccount bankAccount, final double amount) {
-        bankAccount.setAccountBalance(bankAccount.getAccountBalance() - amount);
+        bankAccount.setAccountBalance(bankAccount.getAccountBalance() + amount);
         return true;
     }
 
